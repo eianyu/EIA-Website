@@ -1,0 +1,46 @@
+.sparkstart-intro-box {
+	height: 100%;
+	width: 90%;
+	left: 40%;
+	background: #F7C26C;
+}
+
+.sparkstart-intro-box > p {
+	font-family: serif;
+	font-size: 5em;
+	color: white;
+}
+
+#sparkstart-underline{
+	background: white;
+	height: 10px;
+	width: 80px;
+	padding-left: 50px;
+}
+
+#sparkstart-desc {
+	font-size: 3em;
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.sparkstart-button {
+	background-color: white;
+    border: none;
+	font-family: Cormorant Garamond;
+    color: #00559E;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5em;
+    margin: 4px 2px;
+    cursor: pointer;
+	
+}
+
+#sparkstart-gap {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}

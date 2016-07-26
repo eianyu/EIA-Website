@@ -8,16 +8,17 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   
-  <link href= "css/custom/styles.css" rel="stylesheet">
+  <link href= "../css/custom/styles.css" rel="stylesheet">
+  <link href= "../css/custom/sparkstart-styles.css" rel="stylesheet">
 </head>
 <body>
-
+	<!-- Header Move to separate html file -->
 	
 	<nav class = "custom-navbar navbar-default">
 		<div class = "container-fluid">
 			
 			<div class = "navbar-header">
-				<img id = "eia-logo" src = "images/EIA Logo.png">
+				<img id = "eia-logo" src = "../images/EIA Logo.png">
 			</div>
 			
 			<div class ="custom-navbar navbar-collapse collapse">
@@ -33,43 +34,24 @@
 		</div>
 	</nav>
 	
-	<div class = "intro-box container-fluid">
-		<p>NYU</p>
-		<p>Entrepreneurship & </p>
-		<p>Innovation Association<p>
-		<p id = "underline"></p>
-		<p id = "desc">We're a group of students here to help student entrepreneurs win.</p>
-		
-		<button class = "button"> Learn More </button>
-		
-		<p id = "gap"></p>
-	</div>
-	
-	<div class = "container-fluid">
-		<div class = "spark-start col-md-4">
-			<p id = "spark-start-Title">SparkStart</p>
-			<p id = "spark-start-Underline"> </p>
-			<p id = "spark-start-Desc">The startup lab designed by students for students</p>
+	<div class = "sparkstart-intro-box container-fluid">
+		<p>SparkStart</p>
+		<p id = "sparkstart-underline"></p>
+		<div class = "row"> 
+			<div class = "col-lg-10" id = "sparkstart-desc">
+				SparkStart is EIA's all new startup lab. Designed to help all stages of startups
+				grow and excel, the one year long program follows the Lean Startup methodology
+				to guide student entrepreneurs through iterations of discovery, validation and 
+				implementation. Startups in the program will also have access to leading workshops,
+				industry mentors, exclusive tech events with the NYC community, funding, EIA partners,
+				legal help and other key resources.
+			</div>
+			<div class = "col-md-4">
+				<button class = "sparkstart-button"> Apply </button>
+			</div>
 		</div>
+		<p id = "sparkstart-gap"></p>
 		
-		<div class = "innoVention col-md-4 col-xs-offset-1">
-			<p id = "innoVention-Title">InnoVention</p>
-			<p id = "innoVention-Underline"> </p>
-			<p id = "innoVention-Desc">Our premier startup competition</p>
-		</div>
-	</div>
-	
-	<div class = "network container-fluid text-center">
-		<p style = "text-align: center;" id = "network-title">Join The Network</p>
-		<p style = "text-align: center;" id = "network-desc">
-			We host events, meetups, happy hours and more to support the 
-			student entrepreneurship community.
-		</p>
-		
-		<div class = "email-form form-group col-md-6 col-md-offset-3 center-text">
-			<input type="email" class="form-control" id="submit-email" placeholder="Email">
-			<button type = "submit" class = "btn btn-primary">Submit</button>
-		</div>
 	</div>
 	
 	
@@ -77,7 +59,7 @@
 	
 	<div class = "footer container-fluid">
 		<div class = "footer-logo col-md-6">
-			<img id = "eia-logo" src = "images/EIA Logo.png">
+			<img id = "eia-logo" src = "../images/EIA Logo.png">
 			
 			<div class = "copyrite">
 				&copy; 2016 NYU EIA. All rights reserved.
