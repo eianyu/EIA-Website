@@ -11,20 +11,18 @@
 	border: 0;
 }
 
-.navbar .nav > li > a {
-	font-family: Garamond;
-	font-size: 1.5em;
-	padding: 50px;
-}
-
 .navbar-text-color > li > a {
 	color: blue !important;
+	font-size: 1.5em;
+	padding-top: 50px;
 }
 
 #eia-logo{
-	height: 50px;
+	height: 100px;
 	width: auto;
 }
+
+
 
 
 .intro-box {
@@ -73,3 +71,70 @@
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
+
+
+.spark-start {
+	height: 100%;
+	width: 45%;
+	border-style: solid;
+	border-color: blue;
+	border-width: 12px;
+	padding-top: 20px;
+}
+
+#spark-start-Title {
+	font-size: 4em;
+	font-family: Serif;
+	color: #0055DD;
+	padding-left: 20px;
+}
+
+#spark-start-Underline {
+	background: #0055DD;
+	height: 5px;
+	width: 40px;
+	padding-left: 20px;
+}
+
+#spark-start-Desc {
+	font-size: 2em;
+	font-family: Serif;
+	color: #0055DD;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+
+
+.innoVention {
+	height: 100%;
+	width: 46%;
+	border-style: solid;
+	border-color: blue;
+	border-width: 12px;
+	padding-top: 20px;
+}
+
+#innoVention-Title {
+	font-size: 4em;
+	font-family: Serif;
+	color: #0055DD; 
+	padding-left: 20px;
+}
+
+#innoVention-Underline {
+	background: #0055DD;
+	height: 5px;
+	width: 40px;
+	padding-left: 20px;
+}
+
+#innoVention-Desc {
+	font-size: 2em;
+	font-family: Serif;
+	color: #0055DD;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+
+
+
