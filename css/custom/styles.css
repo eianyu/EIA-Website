@@ -138,3 +138,32 @@
 
 
 
+.network {
+	height: 100%;
+	width: 50%
+	padding-top: 20px;
+}
+
+#network-title {
+	font-size: 4em;
+	font-family: Serif;
+	color: blue;
+}
+
+#network-desc {
+	font-size: 2em;
+	font-family: Serif;
+	height: 100%;
+	width: 100%;
+	color: #0055DD;
+	padding-bottom: 20px;
+	padding-left: 100px;
+	display: block;
+}
+
+.email-form {
+	height: 100%;
+	width: 50%;
+}
+
+
