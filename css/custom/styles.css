@@ -1,0 +1,41 @@
+.container-fluid {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 80px;
+	padding-right: 70px;
+}
+
+.custom-navbar {
+	background-color: white;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar .nav > li > a {
+	font-family: Garamond;
+	font-size: 1.5em;
+	padding: 50px;
+}
+
+.navbar-text-color > li > a {
+	color: blue !important;
+}
+
+#eia-logo{
+	height: 50px;
+	width: auto;
+}
+
+
+.intro-box {
+	height: 60%;
+	width: 90%;
+	left: 40%;
+	background: #48CFAD;
+}
+
+.intro-box > p {
+	font-family: sans-serif;
+	font-size: 5em;
+	color: white;
+}
