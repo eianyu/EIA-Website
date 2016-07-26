@@ -6,7 +6,7 @@
 }
 
 .sparkstart-intro-box > p {
-	font-family: serif;
+	font-family: Raleway;
 	font-size: 5em;
 	color: white;
 }
@@ -44,3 +44,90 @@
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
+
+
+
+.format-schedule {
+	height: 100%;
+	width: 90%;
+	left: 40%;
+}
+
+.format-schedule > p {
+	font-family: Raleway;
+	font-size: 5em;
+	color: #00559E;
+}
+
+#empty-line {
+	padding-top: 30px;
+}
+
+#schedule-desc {
+	font-family: Cormorant Garamond;
+	font-size: 2em;
+	color: #6BA5E9;
+}
+
+.month {
+	font-family: Raleway;
+	font-size: 3em;
+	color: #6BA5E9;
+}
+
+.events {
+	font-family: Cormorant Garamond;
+	font-size: 2em;
+	color: #6BA5E9;
+	padding-left: 3em;
+}
+
+.subevent {
+	font-family: Cormorant Garamond;
+	color: #6BA5E9;
+	padding-left: 2em;
+}
+
+
+
+.guidelines {
+	font-family: Raleway;
+	font-size: 4em;
+	color: #00559E;
+}
+
+.guide-title {
+	font-family: Cormorant Garamond;
+	font-size: 2em;
+	color: #6BA5E9;
+}
+
+.guide-desc {
+	font-family: Cormorant Garamond;
+	color: #6BA5E9;
+	padding-left: 2em;
+}
+
+
+
+.faq {
+	font-family: Raleway;
+	font-size: 4em;
+	color: #00559E;
+}
+
+.faq-title {
+	font-family: Cormorant Garamond;
+	font-size: 2em;
+	color: #6BA5E9;
+}
+
+
+
+.sponsor-title{
+	font-family: Raleway;
+	font-size: 4em;
+	color: #00559E;
+}
+
+
