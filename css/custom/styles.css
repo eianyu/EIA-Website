@@ -29,7 +29,7 @@
 	height: 100%;
 	width: 90%;
 	left: 40%;
-	background: #48CFAD;
+	background: #92D0B9;
 }
 
 .intro-box > p {
@@ -56,7 +56,7 @@
 	background-color: #FFFFFF;
     border: none;
 	font-family: serif;
-    color: #48CFAD;
+    color: #92D0B9;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -164,6 +164,40 @@
 .email-form {
 	height: 100%;
 	width: 50%;
+}
+
+
+
+
+.footer {
+	height: 100%;
+	width: 90%;
+	left: 40%;
+	background: #92D0B9;
+}
+
+.copyrite {
+	font-size: 1em;
+	color: white;
+}
+
+.footer-left-links {
+	font-size: 1.5em;
+	color: white;
+}
+
+#footer-title {
+	font-size: 2em;
+	font-family: 'Cormorant Garamond', serif;
+	color: white;
+}
+
+#footer-body {
+	font-size: 1.5em;
+	font-family: 'Cormorant Garamond', serif;
+	color: white;
+	float: left;
+
 }
 
 
