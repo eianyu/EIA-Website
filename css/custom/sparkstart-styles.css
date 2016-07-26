@@ -19,7 +19,7 @@
 }
 
 #sparkstart-desc {
-	font-size: 3em;
+	font-size: 2em;
 	color: white;
 	padding-top: 30px;
 	padding-bottom: 30px;
@@ -130,4 +130,20 @@
 	color: #00559E;
 }
 
+#sponsor-become-one{
+	font-family: Cormorant Garamond;
+	font-size: 2em;
+	color: #6BA5E9;
+}
 
+.apply{
+	font-family: Raleway;
+	font-size: 4em;
+	color: #00559E;
+}
+
+#apply-desc {
+	font-family: Cormorant Garamond;
+	color: #6BA5E9;
+	font-size: 1.5em;
+}
