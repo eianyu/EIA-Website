@@ -101,3 +101,30 @@
 	height: 100px;
 	width: auto;
 }
+
+.sparkstart-companies {
+	font-family: Raleway;
+	font-size: 4em;
+	color: #00559E;
+	padding-bottom: 2em;
+}
+
+.sparkstart-company-desc {
+	font-family: Cormorant Garamond;
+	font-size: 50%;
+	color: #6BA5E9;
+}
+
+.partner-companies {
+	font-family: Raleway;
+	font-size: 4em;
+	color: #00559E;
+	padding-bottom: 2em;
+}
+
+.partner-company-desc {
+	font-family: Cormorant Garamond;
+	font-size: 50%;
+	color: #6BA5E9;
+}
+
