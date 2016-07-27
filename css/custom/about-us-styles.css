@@ -67,3 +67,61 @@
 	font-family: Cormorant Garamond;
 	font-size: 1.5em;
 }
+
+#advisor-caption {
+	display: block;
+	color: #00559E;
+	
+	font-family: Cormorant Garamond;
+	font-size: 1.5em;
+}
+
+#sponsor-img{
+	position: relative;
+	vertical-align: top;
+    width:  300px;
+    height: 100px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+	
+	text-align: center;
+}
+
+.join-eia-box {
+	height: 100%;
+	width: 90%;
+	left: 40%;
+	background: #F7C26C;
+}
+
+.join-eia-box > p {
+	font-family: Raleway;
+	font-size: 4em;
+	color: white;
+	
+	text-align: center;
+	padding-top: 50px;
+}
+
+#join-eia-newsletter {
+	font-family: Raleway;
+	font-size: 1.5em;
+	color: white;
+	
+	text-align: center;
+	padding-top: 20px;
+}
+
+.button {
+	background-color: #FFFFFF;
+    border: none;
+	font-family: serif;
+    color: #F7C26C;
+    
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    margin: auto;
+    cursor: pointer;
+	
+}
