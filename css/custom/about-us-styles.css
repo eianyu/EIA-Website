@@ -125,3 +125,28 @@
     cursor: pointer;
 	
 }
+
+.sponsor-eia-box {
+	height: 100%;
+	width: 90%;
+	left: 40%;
+	background: #6BA5E9;
+}
+
+.sponsor-eia-box > p {
+	font-family: Raleway;
+	font-size: 4em;
+	color: white;
+	
+	text-align: center;
+	padding-top: 50px;
+}
+
+#sponsor-eia-newsletter {
+	font-family: Raleway;
+	font-size: 1.5em;
+	color: white;
+	
+	text-align: center;
+	padding-top: 20px;
+}
