@@ -1,0 +1,167 @@
+.innovention-intro-box {
+	height: 100%;
+	width: 90%;
+	left: 40%;
+	background: #00559E;
+}
+
+.innovention-intro-box > p {
+	font-family: Raleway;
+	font-size: 5em;
+	color: white;
+}
+
+#innovention-underline{
+	background: white;
+	height: 10px;
+	width: 80px;
+	padding-left: 50px;
+}
+
+#innovention-desc {
+	font-size: 2em;
+	color: white;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.innovention-button {
+	background-color: white;
+    border: none;
+	font-family: Cormorant Garamond;
+    color: #00559E;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5em;
+    margin: 4px 2px;
+    cursor: pointer;
+	
+}
+
+#innovention-gap {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+
+
+.format-schedule {
+	height: 100%;
+	width: 90%;
+	left: 40%;
+}
+
+.format-schedule > p {
+	font-family: Raleway;
+	font-size: 5em;
+	color: #00559E;
+}
+
+#empty-line {
+	padding-top: 30px;
+}
+
+#schedule-desc {
+	font-family: Cormorant Garamond;
+	font-size: 2em;
+	color: #6BA5E9;
+}
+
+.month {
+	font-family: Raleway;
+	font-size: 3em;
+	color: #6BA5E9;
+}
+
+.events {
+	font-family: Cormorant Garamond;
+	font-size: 2em;
+	color: #6BA5E9;
+	padding-left: 3em;
+}
+
+.subevent {
+	font-family: Cormorant Garamond;
+	color: #6BA5E9;
+	padding-left: 2em;
+}
+
+
+
+.guidelines {
+	font-family: Raleway;
+	font-size: 4em;
+	color: #00559E;
+}
+
+
+.guide-desc {
+	font-family: Cormorant Garamond;
+	color: #6BA5E9;
+	font-size: 2em;
+}
+
+.past-winners{
+	font-family: Raleway;
+	font-size: 4em;
+	color: #00559E;
+}
+.innovention-company-desc {
+	font-family: Cormorant Garamond;
+	font-size:30%;
+	color: #6BA5E9;
+	padding-left: 2em;
+}
+
+.faq {
+	font-family: Raleway;
+	font-size: 4em;
+	color: #00559E;
+}
+
+.faq-title {
+	font-family: Cormorant Garamond;
+	font-size: 2em;
+	color: #6BA5E9;
+}
+#edenworks-logo {
+	padding-top: 1.5em;
+	height: 100px;
+	width: auto;
+}	
+#Microsoft{
+	padding:0.5em;
+	height: 100px;
+	width: auto;
+}
+#Squarespace{
+	padding: 1.5em;
+	height: 100px;
+	width: auto;
+}
+
+.sponsor-title{
+	font-family: Raleway;
+	font-size: 4em;
+	color: #00559E;
+}
+
+#sponsor-become-one{
+	font-family: Cormorant Garamond;
+	font-size: 2em;
+	color: #6BA5E9;
+}
+
+.apply{
+	font-family: Raleway;
+	font-size: 4em;
+	color: #00559E;
+}
+
+#apply-desc {
+	font-family: Cormorant Garamond;
+	color: #6BA5E9;
+	font-size: 1.5em;
+}
