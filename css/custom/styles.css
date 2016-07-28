@@ -1,61 +1,74 @@
 .container-fluid {
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-left: 80px;
-	padding-right: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    padding-right: 70px;
 }
 
 .custom-navbar {
-	background-color: white;
-	border-radius: 0;
-	border: 0;
+    background-color: white;
+    border-radius: 0;
+    border: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 0;
 }
 
-.navbar-text-color > li > a {
-	color: blue !important;
-	font-size: 1.5em;
-	padding-top: 50px;
+.navbar-text-color > li > p {
+	padding: 10px 17px;
 }
 
-#eia-logo{
-	height: 100px;
-	width: auto;
+.navbar-text-color > li > p > a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #00559E !important;
+    font-size: 1.3em;
 }
 
+.navbar-text-color > li > p > a:hover {
+    text-decoration: none;
+    border-bottom: solid 3px #00559E;
+    padding-bottom: 4px;
+    cursor: pointer;
+}
 
-
+#eia-logo {
+    height: 100px;
+    width: auto;
+}
 
 .intro-box {
-	height: 100%;
-	width: 90%;
-	left: 40%;
-	background: #92D0B9;
+    background: #92D0B9;
+    padding: 75px;
+    margin-bottom: 40px;
 }
 
 .intro-box > p {
-	font-family: serif;
-	font-size: 5em;
-	color: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 5em;
+    color: white;
+    font-weight: 500;
+    line-height: 1;
 }
 
-#underline{
-	background: white;
-	height: 10px;
-	width: 80px;
-	padding-left: 50px;
+#underline {
+    background: white;
+    height: 10px;
+    width: 80px;
 }
 
 #desc {
-	font-size: 3em;
-	color: white;
-	padding-top: 30px;
-	padding-bottom: 30px;
+    font-size: 2em;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .button {
-	background-color: #FFFFFF;
+    background-color: #FFFFFF;
     border: none;
-	font-family: serif;
+    font-family: serif;
     color: #92D0B9;
     padding: 15px 32px;
     text-align: center;
@@ -64,140 +77,197 @@
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-	
 }
 
 #gap {
-	padding-top: 60px;
-	padding-bottom: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
-
 .spark-start {
-	height: 100%;
-	width: 45%;
-	border-style: solid;
-	border-color: blue;
-	border-width: 12px;
-	padding-top: 20px;
+    height: 100%;
+    border-style: solid;
+    border-color: #00559E;
+    border-width: 12px;
+    padding-top: 20px;
+}
+
+.spark-start:hover {
+	background-color: #00559E;
+}
+
+.spark-start:hover #spark-start-Title {
+	color: white;
+}
+
+.spark-start:hover #spark-start-Underline {
+	background: white;
+}
+
+.spark-start:hover #spark-start-Desc {
+	color: white;
 }
 
 #spark-start-Title {
-	font-size: 4em;
-	font-family: Serif;
-	color: #0055DD;
-	padding-left: 20px;
+    font-size: 2.75em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    color: #00559E;
+    padding-left: 20px;
 }
 
 #spark-start-Underline {
-	background: #0055DD;
-	height: 5px;
-	width: 40px;
-	padding-left: 20px;
+    background: #00559E;
+    height: 5px;
+    width: 40px;
+    margin-left: 20px;
 }
 
 #spark-start-Desc {
-	font-size: 2em;
-	font-family: Serif;
-	color: #0055DD;
-	padding-bottom: 20px;
-	padding-left: 20px;
+    font-size: 1.5em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #00559E;
+    padding-bottom: 20px;
+    padding-left: 20px;
 }
 
+.innoVention:hover {
+	background-color: #00559E;
+}
+
+.innoVention:hover #innoVention-Title {
+	color: white;
+}
+
+.innoVention:hover #innoVention-Underline {
+	background: white;
+}
+
+.innoVention:hover #innoVention-Desc {
+	color: white;
+}
 
 .innoVention {
-	height: 100%;
-	width: 46%;
-	border-style: solid;
-	border-color: blue;
-	border-width: 12px;
-	padding-top: 20px;
+    height: 100%;
+    border-style: solid;
+    border-color: #00559E;
+    border-width: 12px;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 #innoVention-Title {
-	font-size: 4em;
-	font-family: Serif;
-	color: #0055DD; 
-	padding-left: 20px;
+    font-size: 2.75em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    color: #00559E;
+    padding-left: 20px;
 }
 
 #innoVention-Underline {
-	background: #0055DD;
-	height: 5px;
-	width: 40px;
-	padding-left: 20px;
+    background: #00559E;
+    height: 5px;
+    width: 40px;
+    margin-left: 20px;
 }
 
 #innoVention-Desc {
-	font-size: 2em;
-	font-family: Serif;
-	color: #0055DD;
-	padding-bottom: 20px;
-	padding-left: 20px;
+    font-size: 1.5em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #00559E;
+    padding-bottom: 20px;
+    padding-left: 20px;
 }
 
-
-
 .network {
-	height: 100%;
-	width: 50%
-	padding-top: 20px;
+    height: 100%;
+    width: 50%;
+    padding-top: 20px;
 }
 
 #network-title {
-	font-size: 4em;
-	font-family: Serif;
-	color: blue;
+    font-size: 3em;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 500;
+    color: #00559E;
+    text-align: center;
+    padding-top: 100px;
 }
 
 #network-desc {
-	font-size: 2em;
-	font-family: Serif;
-	height: 100%;
-	width: 100%;
-	color: #0055DD;
-	padding-bottom: 20px;
-	padding-left: 100px;
-	display: block;
+    font-size: 2em;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    color: #00559E;
+    text-align: center;
+    padding-top: 10px;
 }
 
 .email-form {
-	height: 100%;
-	width: 50%;
+    text-align: center;
+    padding: 20px 20px 100px 20px;
 }
 
+.email-form input {
+	margin-bottom: 20px;
+}
 
-
+.email-form button {
+	background-color: #00559E;
+}
 
 .footer {
-	height: 100%;
-	width: 90%;
-	left: 40%;
-	background: #92D0B9;
+    background: #92D0B9;
+}
+
+.footer-logo img {
+	margin-top: 30px;
 }
 
 .copyrite {
-	font-size: 1em;
-	color: white;
+    font-size: 1em;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    padding-top: 10px;
 }
 
 .footer-left-links {
-	font-size: 1.5em;
+    font-size: 1.3em;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+
+.footer-left-links a {
 	color: white;
+}
+
+.footer-discover ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.footer-connect ul {
+	list-style-type: none;
+	padding: 0;
 }
 
 #footer-title {
-	font-size: 2em;
-	font-family: 'Cormorant Garamond', serif;
-	color: white;
+    font-size: 1.9em;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    color: white;
+    padding-top: 30px;
 }
 
 #footer-body {
-	font-size: 1.5em;
-	font-family: 'Cormorant Garamond', serif;
-	color: white;
-	float: left;
-
+    font-size: 1.3em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    color: white;
 }
-
-
