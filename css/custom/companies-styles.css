@@ -33,48 +33,56 @@
 
 
 .company-num-title {
-	font-family: Raleway;
+	font-family: "Raleway", sans-serif;
 	font-size: 4em;
 	color: #00559E;
 	padding-bottom: 2em;
 }
 
 .company-desc {
-	font-family: Cormorant Garamond;
+	font-family: "Cormorant Garamond", sans-serif;
 	color: #6BA5E9;
 	padding-left: 2em;
 }
 
 .companies-number-box {
 	height: 100%;
-	width: 40%;
+	width: 45%;
 	text-align: center;
 	background: #00559E;
 	
-	font-family: Cormorant Garamond;
-	font-size: 4em;
+	font-family: "Raleway", sans-serif;
+	font-size: 3em;
+	font-weight: 200;
 	color: white;
-}
-
-#companies-small-font {
-	color: white;
-	font-size: 30%;
 }
 
 .total-funds-box {
 	height: 100%;
-	width: 40%;
+	width: 45%;
 	text-align: center;
 	background: white;
 	
-	font-family: Cormorant Garamond;
-	font-size: 4em;
+	font-family: "Raleway", sans-serif;
+	font-size: 3em;
 	color: #00559E;
+	padding-left: 50px;
+}
+
+
+#companies-small-font {
+	text-align: center;
+
+	font-family: "Raleway", sans-serif;
+	color: white;
+	font-size: 20%;
 }
 
 #funds-small-font {
 	text-align: center;
 	color: #00559E;
+	
+	font-family: "Raleway", sans-serif;
 	font-size: 20%;
 	padding-left: 2em;
 }
