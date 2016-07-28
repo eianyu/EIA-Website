@@ -88,7 +88,7 @@
 }
 
 .innovention-companies {
-	font-family: Raleway;
+	font-family: 'Raleway', sans-serif;
 	font-size: 4em;
 	color: #00559E;
 	padding-bottom: 2em;
@@ -117,27 +117,27 @@
 }
 
 .sparkstart-companies {
-	font-family: Raleway;
+	font-family: 'Raleway', sans-serif;
 	font-size: 4em;
 	color: #00559E;
 	padding-bottom: 2em;
 }
 
 .sparkstart-company-desc {
-	font-family: Cormorant Garamond;
+	font-family: 'Raleway', sans-serif;
 	font-size: 50%;
 	color: #6BA5E9;
 }
 
 .partner-companies {
-	font-family: Raleway;
+	font-family: 'Raleway', sans-serif;
 	font-size: 4em;
 	color: #00559E;
 	padding-bottom: 2em;
 }
 
 .partner-company-desc {
-	font-family: Cormorant Garamond;
+	font-family: 'Raleway', sans-serif;
 	font-size: 50%;
 	color: #6BA5E9;
 }
