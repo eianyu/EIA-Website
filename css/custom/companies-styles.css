@@ -95,20 +95,25 @@
 }
 
 .innovention-company-desc {
-	font-family: Cormorant Garamond;
+	font-family: "Raleway", sans-serif;
 	font-size:30%;
 	color: #6BA5E9;
-	padding-left: 2em;
 }
 
 #empty-line {
 	padding-top: 30px;
 }
 
-#edenworks-logo {
-	padding-top: 1.5em;
-	height: 100px;
-	width: auto;
+#company-logo {
+	position: relative;
+	vertical-align: top;
+	
+    width:  200px;
+    height: 200px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+	
+	text-align: center;
 }
 
 .sparkstart-companies {
