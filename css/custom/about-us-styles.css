@@ -1,21 +1,21 @@
 .about-us-intro-box {
-	height: 100%;
-	width: 90%;
-	left: 40%;
 	background: #ED6374;
+	padding: 75px;
+    margin-bottom: 40px;
 }
 
 .about-us-intro-box > p {
-	font-family: Raleway;
-	font-size: 5em;
-	color: white;
+	font-family: 'Cormorant Garamond', serif;
+    font-size: 5em;
+    color: white;
+    font-weight: 500;
+    line-height: 1;
 }
 
 #about-us-underline{
 	background: white;
 	height: 10px;
 	width: 80px;
-	padding-left: 50px;
 }
 
 #about-us-desc {
@@ -23,64 +23,96 @@
 	color: white;
 	padding-top: 30px;
 	padding-bottom: 30px;
+	padding-left: 0 !important;
 }
 
 #about-us-gap {
-	padding-top: 100px;
 	padding-bottom: 100px;
 }
 
 #empty-line {
-	padding-top: 30px;
+	padding-top: 100px;
 }
 
 .team-description {
 	text-align: center;
-	font-size: 4em;
+	font-size: 3.5em;
+	font-family: 'Cormorant Garamond', serif;
 	color: #00559E;
+	font-weight: 500;
 	
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
 
 .team-title{
-	font-family: Raleway;
+	font-family: 'Raleway', serif;
 	font-size: 4.5em;
 	color: #00559E;
+	
+	font-weight: 500;
 }
 
 #team-img{
 	position: relative;
 	vertical-align: top;
-    width:  280px;
-    height: 280px;
+    width:  240px;
+    height: 240px;
     background-position: 50% 50%;
     background-repeat:   no-repeat;
 	
 	text-align: center;
 }
 
+.partner {
+	padding-left: 0 !important;
+}
+
+.partner-section {
+	padding-top: 25px;
+	padding-bottom: 50px;
+}
+
 #partner-caption {
 	display: block;
 	color: #00559E;
 	
-	font-family: Cormorant Garamond;
+	font-family: 'Raleway', serif;
 	font-size: 1.5em;
+}
+
+.advisors {
+	padding-left: 0 !important;
+}
+
+.advisor-section {
+	padding-top: 25px;
+	padding-bottom: 50px;
 }
 
 #advisor-caption {
 	display: block;
 	color: #00559E;
 	
-	font-family: Cormorant Garamond;
+	font-family: 'Raleway', serif;
 	font-size: 1.5em;
+}
+
+.sponsors {
+	padding: 0;
+}
+
+.sponsor-section {
+	padding-top: 25px;
+	padding-bottom: 50px;
+	margin-bottom: 50px;
 }
 
 #sponsor-img{
 	position: relative;
 	vertical-align: top;
-    width:  300px;
-    height: 100px;
+    width:  200px;
+    height: 60px;
     background-position: 50% 50%;
     background-repeat:   no-repeat;
 	
@@ -89,23 +121,23 @@
 
 .join-eia-box {
 	height: 100%;
-	width: 90%;
-	left: 40%;
-	background: #F7C26C;
+	background: #F3D769;
+	padding: 0;
+	margin-bottom: 50px;
 }
 
 .join-eia-box > p {
-	font-family: Raleway;
+	font-family: 'Raleway', serif;
 	font-size: 4em;
 	color: white;
 	
 	text-align: center;
-	padding-top: 50px;
+	padding: 50px;
 }
 
 #join-eia-newsletter {
-	font-family: Raleway;
-	font-size: 1.5em;
+	font-family: 'Raleway', serif;
+	font-size: 1em;
 	color: white;
 	
 	text-align: center;
@@ -115,22 +147,25 @@
 .button {
 	background-color: #FFFFFF;
     border: none;
-	font-family: serif;
-    color: #F7C26C;
-    
+    font-family: 'Raleway', serif;
+    color: #F3D769;
+	
+    padding: 15px 50px;
     text-align: center;
     text-decoration: none;
-    font-size: 30px;
-    margin: auto;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
     cursor: pointer;
 	
 }
 
 .sponsor-eia-box {
 	height: 100%;
-	width: 90%;
-	left: 40%;
 	background: #6BA5E9;
+	padding: 50px;
+	
+	margin-bottom: 50px;
 }
 
 .sponsor-eia-box > p {
