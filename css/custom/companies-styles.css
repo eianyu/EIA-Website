@@ -1,144 +1,125 @@
-.companies-intro-box {
+.intro-box {
 	background: #6C5FB8;
-	padding: 75px;
-    margin-bottom: 40px;
+	margin-bottom: 40px;
 }
 
-.companies-intro-box > p {
-	font-family: 'Cormorant Garamond', serif;
-    font-size: 5em;
-    color: white;
+.intro-box h1 {
+	padding-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
     font-weight: 500;
-    line-height: 1;
+    color: #00559E;
+    font-size: 3em;
+    padding-bottom: 20px;
 }
 
-#companies-underline{
-	background: white;
-	height: 10px;
-	width: 80px;
-	padding-left: 50px;
-}
-
-#companies-desc {
-	font-size: 2em;
-	color: white;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	padding-left: 0 !important;
-}
-
-#companies-gap {
-	padding-top: 100px;
-	padding-bottom: 100px;
-}
-
-
-.company-num-title {
-	font-family: "Raleway", sans-serif;
-	font-size: 4em;
-	color: #00559E;
-	padding-bottom: 2em;
-}
-
-.company-desc {
-	font-family: "Cormorant Garamond", sans-serif;
-	color: #6BA5E9;
-	padding-left: 2em;
-}
-
-.companies-number-box {
-	height: 100%;
-	width: 45%;
+.numberBoxComp {
+	height: 320px;
 	text-align: center;
-	background: #00559E;
-	
-	font-family: "Raleway", sans-serif;
-	font-size: 3em;
-	font-weight: 200;
-	color: white;
+	background-color: #00559E;
+	margin-bottom: 50px;
 }
 
-.total-funds-box {
-	height: 100%;
-	width: 45%;
-	text-align: center;
-	background: white;
-	
-	font-family: "Raleway", sans-serif;
-	font-size: 3em;
-	color: #00559E;
-	padding-left: 50px;
-}
-
-
-#companies-small-font {
-	text-align: center;
-
-	font-family: "Raleway", sans-serif;
-	color: white;
-	font-size: 20%;
-}
-
-#funds-small-font {
-	text-align: center;
-	color: #00559E;
-	
-	font-family: "Raleway", sans-serif;
-	font-size: 20%;
-	padding-left: 2em;
-}
-
-.innovention-companies {
+#numBoxText {
 	font-family: 'Raleway', sans-serif;
-	font-size: 4em;
-	color: #00559E;
-	padding-bottom: 2em;
+	font-weight: 300;
+	font-size: 10em;
+	color: white;
+	height: 50%;
+	margin-top: 30px;
 }
 
-.innovention-company-desc {
-	font-family: "Raleway", sans-serif;
-	font-size:30%;
-	color: #6BA5E9;
+#numBoxSm {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	font-size: 1.5em;
+	color: white;
 }
 
-#empty-line {
-	padding-top: 30px;
-}
-
-#company-logo {
-	position: relative;
-	vertical-align: top;
-	
-    width:  200px;
-    height: 200px;
-    background-position: 50% 50%;
-    background-repeat:   no-repeat;
-	
+.numberBoxFunds {
+	height: 320px;
 	text-align: center;
+	background-color: white;
+}
+
+#numBoxTextFunds {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	font-size: 9em;
+	color: #00559E;
+	height: 50%;
+	margin-top: 30px;
+}
+
+#numBoxSmFunds {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	font-size: 1.5em;
+	color: #00559E;
+}
+
+#edenWorks {
+	width: 80%;
+	margin-bottom: 15px;
+}
+
+#physiclo {
+	width: 80%;
+}
+
+.content-p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.25em;
+    color: #00559E;
+}
+
+.content-a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.25em;
+    color: #6BA5E9;
+}
+
+.sparkStart {
+	margin-top: 30px;
+}
+
+.sparkStartDes {
+	margin-bottom: 30px;
+}
+
+#fitAI {
+	width: 60%;
+	margin-bottom: 15px;
+}
+
+.end {
+	margin-bottom: 50px;
 }
 
 .sparkstart-companies {
-	font-family: 'Raleway', sans-serif;
+	font-family: Raleway;
 	font-size: 4em;
 	color: #00559E;
 	padding-bottom: 2em;
 }
 
 .sparkstart-company-desc {
-	font-family: 'Raleway', sans-serif;
+	font-family: Cormorant Garamond;
 	font-size: 50%;
 	color: #6BA5E9;
 }
 
 .partner-companies {
-	font-family: 'Raleway', sans-serif;
+	font-family: Raleway;
 	font-size: 4em;
 	color: #00559E;
 	padding-bottom: 2em;
 }
 
 .partner-company-desc {
-	font-family: 'Raleway', sans-serif;
+	font-family: Cormorant Garamond;
 	font-size: 50%;
 	color: #6BA5E9;
 }

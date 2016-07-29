@@ -47,9 +47,8 @@
 
 .team-title{
 	font-family: 'Raleway', serif;
-	font-size: 4.5em;
+	font-size: 3.5em;
 	color: #00559E;
-	
 	font-weight: 500;
 }
 
@@ -112,7 +111,7 @@
 	position: relative;
 	vertical-align: top;
     width:  200px;
-    height: 60px;
+    height: auto;
     background-position: 50% 50%;
     background-repeat:   no-repeat;
 	
@@ -122,17 +121,16 @@
 .join-eia-box {
 	height: 100%;
 	background: #F3D769;
-	padding: 0;
+	padding: 50px;
 	margin-bottom: 50px;
 }
 
 .join-eia-box > p {
 	font-family: 'Raleway', serif;
-	font-size: 4em;
+	font-size: 3em;
 	color: white;
-	
 	text-align: center;
-	padding: 50px;
+	padding: 50px 50px 20px 50px;
 }
 
 #join-eia-newsletter {
@@ -142,6 +140,7 @@
 	
 	text-align: center;
 	padding-top: 20px;
+	margin-bottom: 20px;
 }
 
 .button {
@@ -157,24 +156,34 @@
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-	
+    margin-bottom: 10px;
+}
+
+.join-eia-box .button a {
+	color: #F3D769;
+}
+
+.button a:hover {
+	text-decoration: none;
+}
+
+.sponsor-eia-box > p {
+	font-family: 'Raleway', serif;
+	font-size: 3em;
+	color: white;
+	text-align: center;
+	padding: 50px 50px 20px 50px;
 }
 
 .sponsor-eia-box {
 	height: 100%;
 	background: #6BA5E9;
-	padding: 50px;
-	
+	padding: 20px;
 	margin-bottom: 50px;
 }
 
-.sponsor-eia-box > p {
-	font-family: Raleway;
-	font-size: 4em;
-	color: white;
-	
-	text-align: center;
-	padding-top: 50px;
+.sponsor-eia-box button {
+	color: #6BA5E9;
 }
 
 #sponsor-eia-newsletter {

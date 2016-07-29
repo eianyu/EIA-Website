@@ -1,149 +1,107 @@
-.sparkstart-intro-box {
-	height: 100%;
-	width: 90%;
-	left: 40%;
-	background: #F7C26C;
+.intro-box {
+    background: #F7C26C;
 }
 
-.sparkstart-intro-box > p {
-	font-family: Raleway;
-	font-size: 5em;
-	color: white;
+.intro-box h1 {
+    padding-bottom: 25px;
 }
 
-#sparkstart-underline{
-	background: white;
-	height: 10px;
-	width: 80px;
-	padding-left: 50px;
+.button {
+    color: #F7C26C;
 }
 
-#sparkstart-desc {
-	font-size: 2em;
-	color: white;
-	padding-top: 30px;
-	padding-bottom: 30px;
-}
-
-.sparkstart-button {
-	background-color: white;
-    border: none;
-	font-family: Cormorant Garamond;
-    color: #00559E;
-    padding: 15px 60px;
+.sub-nav {
     text-align: center;
+    margin: 30px 0px 20px 0px;
+}
+
+.sub-nav p a {
     text-decoration: none;
-    display: inline-block;
-    font-size: 1.5em;
-    margin: 4px 2px;
-    cursor: pointer;
-	
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #00559E;
+    font-size: 1.25em;
 }
 
-#sparkstart-gap {
-	padding-top: 60px;
-	padding-bottom: 60px;
+.sub-nav p a:hover {
+    text-decoration: none;
+    border-bottom: solid 3px #00559E;
+    padding-bottom: 4px;
 }
 
-
-
-.format-schedule {
-	height: 100%;
-	width: 90%;
-	left: 40%;
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #00559E;
+    font-size: 3em;
+    padding-bottom: 10px;
+    padding-top: 30px;
 }
 
-.format-schedule > p {
-	font-family: Raleway;
-	font-size: 5em;
-	color: #00559E;
+.spark-desc {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #00559E;
+    font-size: 1.25em;
+    padding-bottom: 15px;
 }
 
-#empty-line {
-	padding-top: 30px;
-}
-
-#schedule-desc {
-	font-family: Cormorant Garamond;
-	font-size: 2em;
-	color: #6BA5E9;
-}
-
-.month {
-	font-family: Raleway;
-	font-size: 3em;
-	color: #6BA5E9;
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    color: #00559E;
+    padding-bottom: 5px;
 }
 
 .events {
-	font-family: Cormorant Garamond;
-	font-size: 2em;
-	color: #6BA5E9;
-	padding-left: 3em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.25em;
+    color: #00559E;
+    font-weight: 600;
+    padding-left: 3em;
 }
 
-.subevent {
-	font-family: Cormorant Garamond;
-	color: #6BA5E9;
-	padding-left: 2em;
+.events wtf {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1em;
+    color: #00559E;
+    font-weight: 400;
+    margin-left: 20px;
 }
 
-
-
-.guidelines {
-	font-family: Raleway;
-	font-size: 4em;
-	color: #00559E;
+.content-p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.25em;
+    color: #00559E;
 }
 
-.guide-title {
-	font-family: Cormorant Garamond;
-	font-size: 2em;
-	color: #6BA5E9;
+.content-a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.25em;
+    color: #6BA5E9;
 }
 
-.guide-desc {
-	font-family: Cormorant Garamond;
-	color: #6BA5E9;
-	padding-left: 2em;
+#stripes {
+    padding-bottom: 10px;
 }
 
-
-
-.faq {
-	font-family: Raleway;
-	font-size: 4em;
-	color: #00559E;
+.pastWinners {
+    padding-bottom: 15px;
 }
 
-.faq-title {
-	font-family: Cormorant Garamond;
-	font-size: 2em;
-	color: #6BA5E9;
+#Microsoft {
+    padding: 0em 0.5em 0.7em 0.5em;
+    height: 100px;
+    width: auto;
 }
 
-
-
-.sponsor-title{
-	font-family: Raleway;
-	font-size: 4em;
-	color: #00559E;
+#Squarespace {
+    padding: 1.5em;
+    height: 100px;
+    width: auto;
+    margin-bottom: 15px;
 }
 
-#sponsor-become-one{
-	font-family: Cormorant Garamond;
-	font-size: 2em;
-	color: #6BA5E9;
-}
-
-.apply{
-	font-family: Raleway;
-	font-size: 4em;
-	color: #00559E;
-}
-
-#apply-desc {
-	font-family: Cormorant Garamond;
-	color: #6BA5E9;
-	font-size: 1.5em;
+#innoApplyEnd {
+    margin-bottom: 120px;
 }

@@ -5,6 +5,10 @@
     padding-right: 70px;
 }
 
+a {
+    color: #6BA5E9;
+}
+
 .custom-navbar {
     background-color: white;
     border-radius: 0;
@@ -15,7 +19,7 @@
 }
 
 .navbar-text-color > li > p {
-	padding: 10px 17px;
+    padding: 10px 17px;
 }
 
 .navbar-text-color > li > p > a {
@@ -33,6 +37,13 @@
     cursor: pointer;
 }
 
+.active {
+    text-decoration: none;
+    border-bottom: solid 3px #00559E;
+    padding-bottom: 4px;
+    cursor: pointer;
+}
+
 #eia-logo {
     height: 100px;
     width: auto;
@@ -40,7 +51,7 @@
 
 .intro-box {
     background: #92D0B9;
-    padding: 75px;
+    padding: 55px;
     margin-bottom: 40px;
 }
 
@@ -59,6 +70,7 @@
 }
 
 #desc {
+    font-family: 'Cormorant Garamond', serif;
     font-size: 2em;
     color: white;
     padding-top: 30px;
@@ -79,7 +91,7 @@
     cursor: pointer;
 }
 
-#gap {
+.gap {
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -93,19 +105,19 @@
 }
 
 .spark-start:hover {
-	background-color: #00559E;
+    background-color: #00559E;
 }
 
 .spark-start:hover #spark-start-Title {
-	color: white;
+    color: white;
 }
 
 .spark-start:hover #spark-start-Underline {
-	background: white;
+    background: white;
 }
 
 .spark-start:hover #spark-start-Desc {
-	color: white;
+    color: white;
 }
 
 #spark-start-Title {
@@ -133,19 +145,19 @@
 }
 
 .innoVention:hover {
-	background-color: #00559E;
+    background-color: #00559E;
 }
 
 .innoVention:hover #innoVention-Title {
-	color: white;
+    color: white;
 }
 
 .innoVention:hover #innoVention-Underline {
-	background: white;
+    background: white;
 }
 
 .innoVention:hover #innoVention-Desc {
-	color: white;
+    color: white;
 }
 
 .innoVention {
@@ -210,12 +222,10 @@
     padding: 20px 20px 100px 20px;
 }
 
-.email-form input {
-	margin-bottom: 20px;
-}
-
-.email-form button {
-	background-color: #00559E;
+.btn-primary {
+    font-family: 'Raleway', sans-serif;
+    background-color: #00559E;
+    padding: 10px 30px;
 }
 
 .footer {
@@ -223,7 +233,7 @@
 }
 
 .footer-logo img {
-	margin-top: 30px;
+    margin-top: 30px;
 }
 
 .copyrite {
@@ -244,17 +254,17 @@
 }
 
 .footer-left-links a {
-	color: white;
+    color: white;
 }
 
 .footer-discover ul {
-	list-style-type: none;
-	padding: 0;
+    list-style-type: none;
+    padding: 0;
 }
 
 .footer-connect ul {
-	list-style-type: none;
-	padding: 0;
+    list-style-type: none;
+    padding: 0;
 }
 
 #footer-title {

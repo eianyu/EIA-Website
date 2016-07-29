@@ -1,167 +1,111 @@
-.innovention-intro-box {
-	height: 100%;
-	width: 90%;
-	left: 40%;
-	background: #00559E;
+.intro-box {
+    background: #00559E;
 }
 
-.innovention-intro-box > p {
-	font-family: Raleway;
-	font-size: 5em;
-	color: white;
+.intro-box h1 {
+    padding-bottom: 13px;
 }
 
-#innovention-underline{
-	background: white;
-	height: 10px;
-	width: 80px;
-	padding-left: 50px;
-}
-
-#innovention-desc {
-	font-size: 2em;
-	color: white;
-	padding-top: 30px;
-	padding-bottom: 30px;
-}
-
-.innovention-button {
-	background-color: white;
-    border: none;
-	font-family: Cormorant Garamond;
+.button {
     color: #00559E;
-    padding: 15px 60px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1.5em;
-    margin: 4px 2px;
-    cursor: pointer;
-	
 }
 
 #innovention-gap {
-	padding-top: 60px;
-	padding-bottom: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
-
-
-.format-schedule {
-	height: 100%;
-	width: 90%;
-	left: 40%;
+.sub-nav {
+    text-align: center;
+    margin: 30px 0px 20px 0px;
 }
 
-.format-schedule > p {
-	font-family: Raleway;
-	font-size: 5em;
-	color: #00559E;
+.sub-nav p a {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #00559E;
+    font-size: 1.25em;
 }
 
-#empty-line {
-	padding-top: 30px;
+.sub-nav p a:hover {
+    text-decoration: none;
+    border-bottom: solid 3px #00559E;
+    padding-bottom: 4px;
 }
 
-#schedule-desc {
-	font-family: Cormorant Garamond;
-	font-size: 2em;
-	color: #6BA5E9;
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: #00559E;
+    font-size: 3em;
+    padding-bottom: 15px;
+    padding-top: 30px;
 }
 
-.month {
-	font-family: Raleway;
-	font-size: 3em;
-	color: #6BA5E9;
+.inno-desc {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #00559E;
+    font-size: 1.5em;
+    padding-bottom: 15px;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    color: #00559E;
 }
 
 .events {
-	font-family: Cormorant Garamond;
-	font-size: 2em;
-	color: #6BA5E9;
-	padding-left: 3em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.25em;
+    color: #00559E;
+    padding-left: 3em;
+    padding-top: 5px;
 }
 
-.subevent {
-	font-family: Cormorant Garamond;
-	color: #6BA5E9;
-	padding-left: 2em;
+.content-p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.25em;
+    color: #00559E;
 }
 
-
-
-.guidelines {
-	font-family: Raleway;
-	font-size: 4em;
-	color: #00559E;
+.content-a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.25em;
+    color: #6BA5E9;
 }
 
-
-.guide-desc {
-	font-family: Cormorant Garamond;
-	color: #6BA5E9;
-	font-size: 2em;
-}
-
-.past-winners{
-	font-family: Raleway;
-	font-size: 4em;
-	color: #00559E;
-}
-.innovention-company-desc {
-	font-family: Cormorant Garamond;
-	font-size:30%;
-	color: #6BA5E9;
-	padding-left: 2em;
-}
-
-.faq {
-	font-family: Raleway;
-	font-size: 4em;
-	color: #00559E;
-}
-
-.faq-title {
-	font-family: Cormorant Garamond;
-	font-size: 2em;
-	color: #6BA5E9;
-}
 #edenworks-logo {
-	padding-top: 1.5em;
-	height: 100px;
-	width: auto;
-}	
-#Microsoft{
-	padding:0.5em;
-	height: 100px;
-	width: auto;
-}
-#Squarespace{
-	padding: 1.5em;
-	height: 100px;
-	width: auto;
+    height: 170px;
+    width: auto;
+    margin-bottom: 15px;
 }
 
-.sponsor-title{
-	font-family: Raleway;
-	font-size: 4em;
-	color: #00559E;
+#physiclo-logo {
+    height: 170px;
+    width: auto;
+    margin-bottom: 15px;
 }
 
-#sponsor-become-one{
-	font-family: Cormorant Garamond;
-	font-size: 2em;
-	color: #6BA5E9;
+.pastWinners {
+    padding-bottom: 15px;
 }
 
-.apply{
-	font-family: Raleway;
-	font-size: 4em;
-	color: #00559E;
+#Microsoft {
+    padding: 0em 0.5em 0.7em 0.5em;
+    height: 100px;
+    width: auto;
 }
 
-#apply-desc {
-	font-family: Cormorant Garamond;
-	color: #6BA5E9;
-	font-size: 1.5em;
+#Squarespace {
+    padding: 1.5em;
+    height: 100px;
+    width: auto;
+    margin-bottom: 15px;
+}
+
+#innoApplyEnd {
+    margin-bottom: 120px;
 }
