@@ -18,6 +18,16 @@ a {
     padding-right: 0;
 }
 
+.navbar-toggle {
+	margin-top: 15px;
+}
+
+.navbar-collapse.in {
+    overflow: hidden;
+    max-height: none !important;
+    height: auto !important;
+}
+
 .navbar-text-color > li > p {
     padding: 10px 17px;
 }
@@ -55,7 +65,7 @@ a {
     margin-bottom: 40px;
 }
 
-.intro-box > p {
+.intro-box > h1 {
     font-family: 'Cormorant Garamond', serif;
     font-size: 5em;
     color: white;
@@ -63,13 +73,13 @@ a {
     line-height: 1;
 }
 
-#underline {
+.underline {
     background: white;
     height: 10px;
     width: 80px;
 }
 
-#desc {
+.desc {
     font-family: 'Cormorant Garamond', serif;
     font-size: 2em;
     color: white;

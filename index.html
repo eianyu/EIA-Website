@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>EIA</title>
+    <title>NYU Entrepreneurship & Innovation Association</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -18,50 +18,62 @@
         <div class="row">
             <nav class="custom-navbar navbar-default">
                 <div class="navbar-header">
-                    <img id="eia-logo" src="images/EIA Logo.png">
+                    <a href="./index.html"><img id="eia-logo" src="images/EIA Logo.png"></a>
+					
+					<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".collapsable-navbar">
+						<span class = "icon-bar"></span>
+						<span class = "icon-bar"></span>
+						<span class = "icon-bar"></span>
+					</button>
+					
                 </div>
-                <div class="custom-navbar navbar-collapse collapse">
+				
+                <div class="custom-navbar navbar-collapse collapse collapsable-navbar">
                     <ul class="nav navbar-nav navbar-right navbar-text-color">
                         <li>
-                            <p> <a href="#">InnoVention</a></p>
+                            <p> <a href="pages/innovention.html">InnoVention</a></p>
                         </li>
                         <li>
-                            <p><a href="#">SparkStart</a></p>
+                            <p><a href="pages/sparkstart.html">SparkStart</a></p>
                         </li>
                         <li>
-                            <p><a href="#">Companies</a></p>
+                            <p><a href="pages/companies.html">Companies</a></p>
                         </li>
                         <li>
-                            <p><a href="#">About</a></p>
+                            <p><a href="pages/about-us.html">About</a></p>
                         </li>
                         <li>
-                            <p><a href="#">Blog</a></p>
+                            <p><a href="https://medium.com/eianyu" target="_blank">Blog</a></p>
                         </li>
                     </ul>
                 </div>
+            </nav>
         </div>
     </div>
-    </nav>
     <div class="container">
         <div class="row">
             <div class="col-md-12 intro-box">
-                <p>NYU
+                <h1>NYU
                     <br> Entrepreneurship &
                     <br> Innovation Association
-                </p>
-                <p id="underline"></p>
-                <p id="desc">We're a group of students here to help student entrepreneurs win.</p>
-                <button class="button"> Learn More </button>
+                </h1>
+                <p class="underline"></p>
+                <p class="desc">We're a group of students here to help student entrepreneurs win.</p>
+                <a href="pages/about-us.html">
+                    <button class="button"> Learn More </button>
+                </a>
             </div>
         </div>
         <div class="row">
-            <a href="#">
+            <a href="pages/sparkstart.html">
                 <div class="spark-start col-md-5">
                     <p id="spark-start-Title">SparkStart</p>
                     <p id="spark-start-Underline"> </p>
                     <p id="spark-start-Desc">The startup lab designed by students for students</p>
                 </div>
-                <div class="col-md-2"></div>
+            </a>
+            <div class="col-md-2"></div>
+            <a href="pages/innovention.html">
                 <div class="innoVention col-md-5">
                     <p id="innoVention-Title">InnoVention</p>
                     <p id="innoVention-Underline"> </p>
@@ -84,21 +96,54 @@
         </div>
         <div class="row">
             <div class="email-form form-group col-md-6 col-md-offset-3 center-text">
-                <input type="email" class="form-control" id="submit-email" placeholder="Email">
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <a class="typeform-share link" href="https://polyentrepreneurs.typeform.com/to/VFjpbS" data-mode="1" target="_blank"><button type="submit" class="btn btn-primary">Join</button></a>
+                <script>
+                (function() {
+                    var qs, js, q, s, d = document,
+                        gi = d.getElementById,
+                        ce = d.createElement,
+                        gt = d.getElementsByTagName,
+                        id = 'typef_orm',
+                        b = 'https://s3-eu-west-1.amazonaws.com/share.typeform.com/';
+                    if (!gi.call(d, id)) {
+                        js = ce.call(d, 'script');
+                        js.id = id;
+                        js.src = b + 'share.js';
+                        q = gt.call(d, 'script')[0];
+                        q.parentNode.insertBefore(js, q)
+                    }
+                })()
+                </script>
             </div>
         </div>
         <!--- Footer Move to separate html file -->
         <div class="row">
             <div class="col-md-12 footer">
                 <div class="footer-logo col-md-8">
-                    <img id="eia-logo" src="images/EIA Logo.png">
+                    <a href="./index.html"><img id="eia-logo" src="images/EIA Logo.png"></a>
                     <div class="copyrite">
-                        &copy; 2016 NYU EIA. All rights reserved.
+                        &copy; 2016 NYU Entrepreneurship & Innovation Association. <br> All rights reserved.
                     </div>
                     <div class="footer-left-links" align="left">
-                        <p><a href="#">Become an EIA Sponsor</a> &nbsp; / &nbsp;
-                            <a href="#">Join Us</a>
+                        <p><a href="mailto:sponsor@eianyu.com">Become an EIA Sponsor</a> &nbsp; / &nbsp;
+                            <a class="typeform-share link" href="https://polyentrepreneurs.typeform.com/to/bPsSot" data-mode="1" target="_blank">Join us</a>
+                            <script>
+                            (function() {
+                                var qs, js, q, s, d = document,
+                                    gi = d.getElementById,
+                                    ce = d.createElement,
+                                    gt = d.getElementsByTagName,
+                                    id = 'typef_orm',
+                                    b = 'https://s3-eu-west-1.amazonaws.com/share.typeform.com/';
+                                if (!gi.call(d, id)) {
+                                    js = ce.call(d, 'script');
+                                    js.id = id;
+                                    js.src = b + 'share.js';
+                                    q = gt.call(d, 'script')[0];
+                                    q.parentNode.insertBefore(js, q)
+                                }
+                            })()
+                            </script>
                     </div>
                 </div>
                 <div class="footer-discover col-md-2">
@@ -106,11 +151,11 @@
                         <li>
                             <p id="footer-title">Discover</p>
                         </li>
-                        <li><a id="footer-body" href="#">InnoVention</a></li>
-                        <li><a id="footer-body" href="#">SparkStart</a></li>
-                        <li><a id="footer-body" href="#">Companies</a></li>
-                        <li><a id="footer-body" href="#">About</a></li>
-                        <li><a id="footer-body" href="#">Blog</a></li>
+                        <li><a id="footer-body" href="pages/innovention.html">InnoVention</a></li>
+                        <li><a id="footer-body" href="pages/sparkstart.html">SparkStart</a></li>
+                        <li><a id="footer-body" href="pages/companies.html">Companies</a></li>
+                        <li><a id="footer-body" href="pages/about-us.html">About</a></li>
+                        <li><a id="footer-body" href="https://medium.com/eianyu" target="_blank">Blog</a></li>
                     </ul>
                 </div>
                 <div class="footer-connect col-md-2">
@@ -118,16 +163,17 @@
                         <li>
                             <p id="footer-title">Connect</p>
                         </li>
-                        <li><a id="footer-body" href="#">Twitter</a></li>
-                        <li><a id="footer-body" href="#">Facebook</a></li>
-                        <li><a id="footer-body" href="#">Eventbrite</a></li>
-                        <li><a id="footer-body" href="#">Medium</a></li>
-                        <li><a id="footer-body" href="#">Email</a></li>
+                        <li><a id="footer-body" href="https://twitter.com/eianyu" target="_blank">Twitter</a></li>
+                        <li><a id="footer-body" href="https://www.facebook.com/eianyu/" target="_blank">Facebook</a></li>
+                        <li><a id="footer-body" href="http://eianyu.eventbrite.com" target="_blank">Eventbrite</a></li>
+                        <li><a id="footer-body" href="https://medium.com/eianyu" target="_blank">Medium</a></li>
+                        <li><a id="footer-body" href="mailto:hello@eianyu.com">Email</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 </body>
 
 </html>
