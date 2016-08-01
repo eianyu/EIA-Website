@@ -291,3 +291,76 @@ a {
     font-weight: 300;
     color: white;
 }
+
+
+
+@media only screen and (max-width: 320px) {
+
+   .intro-box {
+		background: #92D0B9;
+		padding: 55px;
+		margin-bottom: 40px;
+	}
+
+	.intro-box > h1 {
+		font-family: 'Cormorant Garamond', serif;
+		font-size: 2em;
+		color: white;
+		font-weight: 500;
+		line-height: 1;
+	}
+
+	.underline {
+		background: white;
+		height: 10px;
+		width: 80px;
+	}
+	
+	.desc {
+		font-family: 'Cormorant Garamond', serif;
+		font-size: 1.5em;
+		color: white;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	
+	.footer {
+		background: #92D0B9;
+	}
+
+	.footer-logo img {
+		margin-left: 50px;
+	}
+
+	.copyrite {
+		text-align: center;
+	}
+
+	.footer-left-links {
+		text-align: center;
+	}
+
+	.footer-left-links a {
+		text-align: center;
+	}
+
+	.footer-discover ul {
+		text-align: center;
+	}
+
+	.footer-connect ul {
+		text-align: center;
+	}
+
+	#footer-title {
+		text-align: center;
+	}
+
+	#footer-body {
+		text-align: center;
+	}
+	
+}
+
+
